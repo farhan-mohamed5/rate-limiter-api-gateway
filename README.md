@@ -204,9 +204,3 @@ gateway:
 
 ---
 
-## Future improvements (optional)
-- Redis-backed limiter (multi-instance gateway)
-- Token bucket algorithm (smoother bursts)
-- Prometheus/Micrometer metrics
-- Docker Compose for one-command startup
-- Integration tests + CI pipeline (GitHub Actions)
