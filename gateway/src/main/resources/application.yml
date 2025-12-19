@@ -1,0 +1,25 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: gateway
+
+gateway:
+  upstreamBaseUrl: "http://localhost:8081"
+
+  apiKeys:
+    basic-key: BASIC
+    pro-key: PRO
+
+  plans:
+    BASIC:
+      windowSeconds: 60
+      defaultLimit: 20
+      routes:
+        "/auth": 5
+    PRO:
+      windowSeconds: 60
+      defaultLimit: 200
+      routes:
+        "/auth": 30
