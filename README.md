@@ -55,7 +55,7 @@ Client  --->  Gateway (port 8080)  --->  Upstream Service (port 8081)
 - Java 17  
 - Spring Boot 3 (Gateway uses WebFlux)  
 - Maven  
-- Local-only setup (no paid services required)
+- Local-only setup 
 
 ---
 
